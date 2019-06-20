@@ -1,2 +1,3 @@
 language: python
 install: pip install mkdocs
+script: echo This is a pen
