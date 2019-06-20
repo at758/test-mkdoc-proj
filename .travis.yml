@@ -1,3 +1,9 @@
 language: python
 install: pip install mkdocs
-script: echo This is a pen
+script: 
+  - echo This is a pen
+  - pwd
+  - ls -la
+branches:
+  only:
+    - master
