@@ -1,5 +1,5 @@
 language: python
-install: pip install mkdocs
+install: true
 script: 
   - echo This is a pen
   - pwd
