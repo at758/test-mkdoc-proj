@@ -1,9 +1,7 @@
 language: python
 install: true
 script: 
-  - echo This is a pen
-  - pwd
-  - ls -la
+  - ./travis_scripts/scripts.sh
 branches:
   only:
     - master
