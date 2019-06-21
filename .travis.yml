@@ -1,7 +1,7 @@
 language: python
 install: true
 script: 
-  - ./travis_scripts/scripts.sh
+  - ./travis_scripts/script.sh
 branches:
   only:
     - master
